@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+    background-color: #EDEDED;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #3c6666;
+    border-bottom: 1px solid #929CA4;
+}
+
+p:first-of-type:first-letter {
+    font-size: 30px;
+}
+
+.solution {
+    color: #CC1C0D;
+    font-weight: bold;
+}
+
+#testemonial1, #testemonial2 {
+    font-style: italic;
+    margin-left: 50px;
+}
+
+a[href^="http://"] {
+    color: green;
+}
+
+a[href^="http://"]:visited {
+    color: aquamarine;
+}
+
+a[href^="http://"]:active {
+    color: yellow;
+}
+
+a[href^="http://"]:hover {
+    color: orange;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul:first-of-type:first-line {
+    color: blue;
+}
+
+li:last-child {
+    color: red;
+}
